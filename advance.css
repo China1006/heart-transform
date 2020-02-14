@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: fuchsia;
+}
 .heart {
   margin: 100px;
   position: relative;
   display: inline-block;
+
   animation: 0.2s heart infinite alternate-reverse;
 }
 
